@@ -38,6 +38,8 @@
     <sapdbc.version>7.4.4</sapdbc.version>
     <asm.version>3.2</asm.version>
     <flexjson.version>2.1</flexjson.version>
+    <blueprints-core.version>2.6.0</blueprints-core.version>
+    <commons-configuration.version>1.9</commons-configuration.version>
     <mimepull.version>1.9.3</mimepull.version>
     <enunciate-jersey-rt.version>1.27</enunciate-jersey-rt.version>
     <enunciate-core-annotations.version>1.27</enunciate-core-annotations.version>
@@ -592,17 +594,6 @@
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-configuration2</artifactId>
       <version>${commons-configuration2.version}</version>
-      <exclusions>
-        <exclusion>
-          <groupId>*</groupId>
-          <artifactId>*</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>net.sf.flexjson</groupId>
-      <artifactId>flexjson</artifactId>
-      <version>${flexjson.version}</version>
       <exclusions>
         <exclusion>
           <groupId>*</groupId>
