@@ -53,7 +53,6 @@ import org.pentaho.di.trans.steps.abort.AbortMeta;
 import org.pentaho.hadoop.shim.api.cluster.NamedClusterService;
 import org.pentaho.metastore.locator.api.MetastoreLocator;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
